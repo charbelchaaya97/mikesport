@@ -1,0 +1,189 @@
+.mikesport {
+
+    width: 100%;
+    padding: 0 !important;
+
+
+   
+
+    .offer {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        .offer1 {
+            color: #090909;
+        
+            font-weight: bold;
+            font-size: 40px;
+            width: 100%;
+           
+        }
+
+        .offer2 {
+            color: #373464;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 2px;
+     
+        }
+
+        .offer3 {
+            color: #202020;
+            font-size: 35px;
+            margin-top: 25px;
+        }
+
+        .offer4 {
+            color: #202020;
+            font-size: 16px;
+           
+        }
+    }
+
+    .top-section {
+        padding: 20px;
+        background: url('./image/mikesport-background.png') center/cover no-repeat;
+        height: 950px;
+        width: 100%;
+
+        .container {
+            padding: auto;
+            width: 100%;
+
+            .row {
+                
+            
+              
+                padding: 100px 0 0 0 ;
+
+                .title {
+                    font-weight: bold;
+                    font-size: 40px;
+                    color: #fff;
+                    text-transform: capitalize;
+                }
+
+                .sub-title {
+                    font-size: 18px;
+                    color: #fff;
+                    text-transform: capitalize;
+                }
+
+                .fot-title {
+                    font-size: 18px;
+                    color: #fff;
+                    text-transform: capitalize;
+                }
+
+                .off-text {
+                    color: #fff;
+                    
+                    font-weight: bold;
+                    font-size: 25px;
+                    width: 100%;
+                }
+
+                .btn-qr {
+                    border-radius: 25px;
+                    color: #226d96;
+                   text-align: center;
+                    padding: 10px 30px;
+                    border: none;
+                    white-space: nowrap;
+                }
+
+                .col-right {
+                    .mikelogo {
+                        max-width: 800px;
+                        object-fit: contain;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+      
+    }
+    .logo {
+        border: none !important;
+        border: 1px solid #fff;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-right: 2px;
+        margin-top: -60px;
+        min-height: 150px;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+.logo1{
+    height: 110px;
+    line-height: 110px;
+    min-width: 110px;
+}
+     
+    } 
+.cart-three{
+  
+   
+    
+    .row{
+
+        height: 330px;
+        .col-md-4{
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 10px 60px rgba(0, 0, 0, .18);
+            padding: 10px;
+            width: 310px;
+            margin-right: 8px;
+          .p{
+            color: #6b6b6b;
+           
+            font-size: 20px;
+            letter-spacing: 0;
+          }
+            .title-bold{
+                color: #000;
+                font-weight: bold;
+                padding: 10px;
+                margin-top: 22px;
+                font-size: 20px;
+
+            }
+           
+            .title-text{
+              
+                display: flex;
+                p{
+                    color: #000;
+    font-weight: Bold;
+    font-size: 25px;
+    margin-bottom: -5px;
+                }
+                img{
+                    width: 200px;
+                    margin: -7px 150px;
+                    height: 50px;
+
+                }
+            }
+        }
+
+       
+    }
+}
+    
+ 
+}
+@media (max-width: 768px) {
+    .mikesport{
+    .col-right {
+        order: 1;
+    }
+
+    .col-left {
+        order: 2;
+    }
+}
+
+}
