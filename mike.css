@@ -50,7 +50,7 @@
             padding: auto;
             width: 100%;
 
-            .row {
+            .row1 {
                 
             
               
@@ -83,14 +83,18 @@
                     width: 100%;
                 }
 
+                .btn-qr1{ 
+                    text-align:center;
                 .btn-qr {
+                    
                     border-radius: 25px;
                     color: #226d96;
-                   text-align: center;
-                    padding: 10px 30px;
+                 
+                    padding: 10px 30px ;
                     border: none;
-                    white-space: nowrap;
-                }
+    
+                    width: 250px;
+                }}
 
                 .col-right {
                     .mikelogo {
@@ -122,25 +126,31 @@
 }
      
     } 
+
+
+
 .cart-three{
-  
+ 
+  text-align: center;
+  margin-bottom: 25px;
    
     
-    .row{
+    .row{         width: 100%;
 
-        height: 330px;
+
         .col-md-4{
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 10px 60px rgba(0, 0, 0, .18);
             padding: 10px;
-            width: 310px;
-            margin-right: 8px;
+            width: 30%;
+            margin: auto;
+        
           .p{
             color: #6b6b6b;
            
             font-size: 20px;
-            letter-spacing: 0;
+
           }
             .title-bold{
                 color: #000;
@@ -158,11 +168,11 @@
                     color: #000;
     font-weight: Bold;
     font-size: 25px;
-    margin-bottom: -5px;
+    
                 }
                 img{
                     width: 200px;
-                    margin: -7px 150px;
+                
                     height: 50px;
 
                 }
@@ -172,8 +182,188 @@
        
     }
 }
+
+.tutorial{
+text-align: center;
+.titleturorial{
     
+color: #373464;
+font-weight: Bold;
+font-size: 20px;
+
+}
+.question{
+    color: #202020;
+   
+    font-size: 35px;
+    margin-top: 25px;
+}
+}
+
+.background{
+
+    .row{
+.col-lg-6{
+.tab{
+    width: 100%;
+    height: 200px;
+    background-color: #226d96;
+    border: 2px solid black ;
+}
+.p1{
+    
+    margin: 10px 10px 10px 10px;
  
+    font-size: 30px;
+    
+
+}
+}
+    }
+}
+.D{
+    color: #373464;
+    font-weight: Bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.G{
+color: #202020;
+font-size: 35px;
+margin-top: 25px;
+text-align: center;
+}
+.btn-qr2{ 
+    text-align: center;
+.btn-qr3 {
+    border-radius: 25px;
+    color: #fff;
+   text-align: center;
+    padding: 10px;
+    border: none;
+    white-space: nowrap;
+    background-color:#226d96 ;
+    width: 250px;
+}}
+.pay{
+    text-align: center;
+    .row{
+        .first{
+        .tpay{
+            color: #374a5a;
+    font-size: 35px !important;
+    font-weight: 700;
+    margin: 20px 0 70px !important;
+        }
+        .tpay1{
+            font-size: 18px;
+            margin: 20px 0 70px !important;
+        }
+   .p2{
+    font-size: 22px ;
+    color: #00000080;
+
+   }
+
+    }
+    .second{
+        .img5{
+            padding: 0 15px;
+    width: 100%;
+        }}
+   
+}
+}
+.pay1{
+    
+
+    padding-top: 80px;
+    .row{
+        .Second1{
+        .tpay0{
+            text-align: center;
+            color: #374a5a;
+    font-size: 35px !important;
+    font-weight: 700;
+    margin: 20px 0 70px !important;
+        }
+        .tpay01{
+            text-align: center;
+            font-size: 18px;
+            margin: 20px 0 70px !important;
+        }
+   .p21{
+    font-size: 22px ;
+    color: #00000080;
+
+   }
+
+    }
+
+    .first1{
+        text-align: center;
+        .img6{
+            padding: 0 15px;
+    width: 100%;
+        }}
+   
+}
+}
+
+
+
+
+
+.FAQ{
+    color: #216d96;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.FAQ2{
+color: #364a59;
+    font-weight:Bold;
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.dropdown {
+    margin: 20px ;
+ 
+}
+.dropdown-button {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: lightgrey;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    color: #226d96;
+    border-radius: 5px;
+     height: 70px;
+}
+.arrow {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+}
 }
 @media (max-width: 768px) {
     .mikesport{
